@@ -1,7 +1,10 @@
+@import '../../styles.scss';
+
 .typewrite{
     color: black; 
-    font-family: Arial;
+    font-family: 'Inconsolata';
     position: fixed;
+    font-size: 36px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
