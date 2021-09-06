@@ -1,16 +1,10 @@
-.headline{
-    color: black; 
-    font-family: Arial;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-body {
-    background-color:#ce3635;
-    text-align: center;
-    color:#fff;
-    padding-top:10em;
+:host {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
   }
-  
-  * { color:#fff; text-decoration: none;}
+html{
+  background: none;
+}

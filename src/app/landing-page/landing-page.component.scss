@@ -1,4 +1,62 @@
-p{
-    color: black;
-    font-size: large;
+
+
+
+.square{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    z-index: -1;
+    border: 9px;
+    opacity: 0.95;
+    background: white;
+    border: 9px solid black;
+    font-family: 'Inconsolata';
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display:flex;
 }
+
+.about{
+    width: 23.25em;
+    height: 775px;
+    left: 58px;
+    top:0px;
+    border-top: none;
+}
+
+.cv{
+width: 19em;
+height: 26.563em;
+left: 361px;
+top: 500px;
+z-index: -2;
+border-bottom: none;
+}
+
+.projects{
+    width: 58.313em;
+height: 22em;
+left: 352px;
+top: 96px;
+
+}
+
+.contact{
+    width: 45.188em;
+height: 29.188em;
+left: 757px;
+top: 361px;
+border-right: none;
+}
+
+
+.overlay {
+    margin: 30px;
+    background: #009938;
+  }
+
+    .nav{
+        margin: 20px;
+        
+    }
