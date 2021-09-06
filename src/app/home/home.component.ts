@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { Router } from "@angular/router";
 import Typewriter from "t-writer.js";
 
 @Component({
@@ -7,15 +8,15 @@ import Typewriter from "t-writer.js";
   styleUrls: ["./home.component.scss"],
 })
 export class HomeComponent implements OnInit {
-  constructor() {}
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
     const target = document.querySelector(".typewrite");
 
     const writer = new Typewriter(target, {
       loop: false,
-      typeSpeed: 80,
-      deleteSpeed: 80,
+      typeSpeed: 70,
+      deleteSpeed: 70,
       typeColor: "black",
     });
 
@@ -26,5 +27,10 @@ export class HomeComponent implements OnInit {
       .type("...so I let Marvin speak for me")
       .rest(500)
       .start();
+  }
+
+  goToMainPage() {
+    alert("Hello");
+    //this.router.navigateByUrl("/landing-page");
   }
 }
