@@ -1,0 +1,39 @@
+
+   
+   .headline{
+
+    font-family: 'Inconsolata';
+    color: black;
+    font-size: 1.75rem;
+    text-decoration: none;
+   }
+
+
+a{
+    text-decoration: none;
+}  
+
+.navbar{
+    font-family: 'Inconsolata';
+    color: black;
+    font-size: 1.75rem;
+    text-decoration: none;
+    width: 50%;
+}
+
+.navbar-toggler-icon{
+    background-image: url(../../assets/sass/sidebar.svg);
+}
+
+.nav-item{
+    margin-left: 100px;
+    padding-top: 10px;
+    
+    .nav-link{
+    font-family: 'Inconsolata';
+    color:black;
+    font-size: 1.75rem;
+    position:relative;
+    }
+
+}
