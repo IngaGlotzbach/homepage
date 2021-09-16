@@ -10,3 +10,9 @@
     src: url(./assets/fonts/Inconsolata-Regular.ttf);
     font-weight: lighter;
 }
+
+@import './assets/sass/var';
+
+html, body {
+    height: 100%;
+}
