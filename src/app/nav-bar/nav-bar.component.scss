@@ -1,4 +1,4 @@
-
+@import '../../styles.scss';
    
    .headline{
 
@@ -19,6 +19,9 @@ a{
     font-size: 1.75rem;
     text-decoration: none;
     width: 50%;
+    display: block;
+    float: none;
+    width:100%;
 }
 
 .navbar-toggler-icon{
@@ -34,6 +37,36 @@ a{
     color:black;
     font-size: 1.75rem;
     position:relative;
+
     }
 
+    .home{
+        &:hover{
+           color: $magenta;
+            }
+    }
+
+    .projects{
+        &:hover{
+           color: $cyan;
+        }
+    }
+
+    .about{
+        &:hover{
+           color: $yellow;
+        }
+    }
+
+    .contact{
+        &:hover{
+           color: $magenta;
+        }
+    }
+
+    .cv{
+        &:hover{
+           color: $cyan;
+        }
+    }
 }

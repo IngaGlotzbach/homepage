@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
+import { Router } from "@angular/router";
 
 @Component({
-  selector: 'app-nav-bar',
-  templateUrl: './nav-bar.component.html',
-  styleUrls: ['./nav-bar.component.scss']
+  selector: "nav-bar",
+  templateUrl: "./nav-bar.component.html",
+  styleUrls: ["./nav-bar.component.scss"],
 })
 export class NavBarComponent implements OnInit {
+  public isCollapsed = true;
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

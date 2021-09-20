@@ -7,6 +7,7 @@ import { HomeComponent } from "./home/home.component";
 import { LandingPageComponent } from "./landing-page/landing-page.component";
 import { RouterModule } from "@angular/router";
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, LandingPageComponent, NavBarComponent],
@@ -17,6 +18,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
       { path: "", component: HomeComponent },
       { path: "home", component: LandingPageComponent },
     ]),
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
